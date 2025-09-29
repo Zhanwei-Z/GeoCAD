@@ -38,6 +38,7 @@ python3 utils/convert.py --in_path ./cad_data/train_deduplicate_s.pkl --out_path
 Please see the loop captions in the ```./cad_data/processed_data``` directory.
 
 # Training
+Since the pre-training phase is optional and straightforward to implement, we only release the training code in this work.  
 - Run training with multiple GPUs. Change ```num_processes``` in ```ds_config.yaml``` to specify how many GPUs will be used.
 ```
 CUDA_VISIBLE_DEVICES=<gpu_ids> accelerate launch --config_file ds_config.yaml finetune.py --run-name <run_name> --data-path <data_path> --eval-freq 200000 --save-freq 50000 --model-name <model_name>
@@ -85,4 +86,5 @@ If you find our work useful in your research, please cite our paper:
 
 Our code is partially based on [FlexCAD](https://github.com/microsoft/FlexCAD), [Skexgen](https://github.com/samxuxiang/SkexGen) and [Crystal-text-llm](https://github.com/facebookresearch/crystal-text-llm). 
 We appreciate all the contributors for their awesome work.
+
 
