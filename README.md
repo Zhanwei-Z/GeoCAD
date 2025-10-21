@@ -1,6 +1,6 @@
 # GeoCAD
-[NeurIPS 2025] [**GeoCAD: Local Geometry-Controllable CAD Generation**](https://arxiv.org/abs/2506.10337)  
-Zhanwei Zhang , Kaiyuan Liu, Junjie Liu, Wenxiao Wang, Binbin Lin,
+[NeurIPS 2025] [**GeoCAD: Local Geometry-Controllable CAD Generation with Large Language Models**](https://arxiv.org/abs/2506.10337)  
+Zhanwei Zhang, Kaiyuan Liu, Junjie Liu, Wenxiao Wang, Binbin Lin,
 Liang Xie, Chen Shen, Deng Cai.  
 
 
@@ -75,7 +75,7 @@ python3 utils/cad_img.py --input_dir <input_dir> --output_dir <output_dir>
 If you find our work useful in your research, please cite our paper:
 ```
 @article{zhang2025geocad,
-  title={GeoCAD: Local Geometry-Controllable CAD Generation},
+  title={GeoCAD: Local Geometry-Controllable CAD Generation with Large Language Models},
   author={Zhang, Zhanwei and Liu, Kaiyuan and Liu, Junjie and Wang, Wenxiao and Lin, Binbin and Xie, Liang and Shen, Chen and Cai, Deng},
   journal={arXiv preprint arXiv:2506.10337},
   year={2025}
@@ -86,5 +86,6 @@ If you find our work useful in your research, please cite our paper:
 
 Our code is partially based on [FlexCAD](https://github.com/microsoft/FlexCAD), [Skexgen](https://github.com/samxuxiang/SkexGen) and [Crystal-text-llm](https://github.com/facebookresearch/crystal-text-llm). 
 We appreciate all the contributors for their awesome work.
+
 
 
